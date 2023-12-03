@@ -1,0 +1,1 @@
+{{if isValid}}{{if tagName}}<{{tagName}}>{{if childrenCount>0}}{{each children}}{{include './circle.art' $value}}{{/each}}{{/if}}</{{tagName}}>{{/if}}{{/if}}
